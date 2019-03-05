@@ -4,7 +4,7 @@
   "description": "extfans扩展-库",
   "repository": {
     "type": "git",
-    "url": "git@git.infinitynewtab.com:Starlab/extfans-lib.git"
+    "url": "git@github.com:extfans/extfans-lib.git"
   },
   "author": "extfans",
   "license": "ISC",
