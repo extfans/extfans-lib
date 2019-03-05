@@ -1,0 +1,69 @@
+/* reset */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+input,
+button,
+textarea {
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  line-height: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* 工具 */
+
+/* 隐藏 */
+.hide {
+  display: none !important;
+}
+
+/* 全屏 */
+.abs-fit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* 居中 */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* 只允许单行，超出部分隐藏以省略号结尾 */
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 清浮动 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}

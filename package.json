@@ -1,0 +1,16 @@
+{
+  "name": "@extfans/lib",
+  "version": "1.0.0",
+  "description": "extfans扩展-库",
+  "repository": {
+    "type": "git",
+    "url": "git@git.infinitynewtab.com:Starlab/extfans-lib.git"
+  },
+  "author": "extfans",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.18.0",
+    "js-md5": "0.7.3",
+    "reset-css": "4.0.1"
+  }
+}
