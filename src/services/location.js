@@ -13,7 +13,7 @@ export async function getCurrentLocation() {
   const ip = input.value;
 
   const { data } = await axios.get(
-    `https://ipstack.com/ipstack_api.php?ip=${ip}`
+    `http://ip-api.com/json/${ip}`
   );
 
   if (data.region_name === null) {
@@ -22,10 +22,10 @@ export async function getCurrentLocation() {
 
   return {
     ip: data.ip,
-    latitude: data.latitude,
-    longitude: data.longitude,
+    latitude: data.lat,
+    longitude: data.lon,
     cityName: data.city,
-    countryName: data.country_name,
-    continentName: data.continent_name
+    countryName: data.country,
+    continentName: data.regionName
   };
 }
