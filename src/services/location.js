@@ -16,16 +16,18 @@ export async function getCurrentLocation() {
     `http://ip-api.com/json/${ip}`
   );
 
-  if (data.region_name === null) {
+  if (data.status === 'fail' || !data.city) {
     throw new Error('not found');
   }
+
+  debugger;
 
   return {
     ip: data.ip,
     latitude: data.lat,
     longitude: data.lon,
     cityName: data.city,
-    countryName: data.country,
-    continentName: data.regionName
+    regionName: data.regionName,
+    countryName: data.country
   };
 }
