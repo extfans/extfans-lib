@@ -20,3 +20,6 @@ npm link @extfans/lib
 
 ## npm发布
 使用`infinitynewtab`账号进行发布
+
+## 使用中的项目
+1. http://git.infinitynewtab.com/Starlab/extfans-weather-extension
