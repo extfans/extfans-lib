@@ -5,7 +5,7 @@
 * src/components(vue组件)
 * src/consts(常量)
 * src/filters(vue filter)
-* src/modules(模块)
+* src/modules(模块)
 * src/utils(简单工具类)
 
 ## 本地调试
