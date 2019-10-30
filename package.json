@@ -9,7 +9,7 @@
   "author": "extfans",
   "license": "ISC",
   "dependencies": {
-    "axios": "0.18.0",
+    "axios": "0.18.1",
     "js-md5": "0.7.3",
     "reset-css": "4.0.1"
   }
